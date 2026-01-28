@@ -31,12 +31,12 @@ jobs:
         run: cd frontend && npm install
 
       - name: Build project
-        run: cd frontend && npm run build
+        run: cd frontend && npm run build && cd ../ && ls
 
       - name: Upload artifact for GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
-          path: frontend/dist
+          path: dist
 
   deploy:
     needs: build
