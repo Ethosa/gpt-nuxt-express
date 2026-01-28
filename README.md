@@ -1,5 +1,5 @@
 ## Демо:
-https://ethosa.github.io/gpt-nuxt-express
+https://ethosa.github.io/gpt-nuxt-express  (Бекенд в любом случае придется развернуть локально)
 
 ## Запуск
 
